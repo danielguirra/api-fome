@@ -4,7 +4,7 @@
   "main": "food.js",
   "description": "A package for use apifome",
   "author": "Daniel Guirra",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "api",
     "apifome"
