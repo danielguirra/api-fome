@@ -1,7 +1,5 @@
 # APIFOME
 
-RESUME
-
 NPM package that uses the [API](https://apifome.online)
 
 ---
