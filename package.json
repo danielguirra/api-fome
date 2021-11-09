@@ -1,6 +1,6 @@
 {
   "name": "api-fome",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "food.js",
   "description": "A package for use apifome",
   "author": "Daniel Guirra",
@@ -10,6 +10,8 @@
     "apifome"
   ],
   "dependencies": {
-    "axios": "^0.23.0"
+    "axios": "^0.23.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   }
 }

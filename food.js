@@ -1,8 +1,16 @@
-const axios = require("axios");
-
-async function getFood(name) {
-  let food = await axios.get(`https://apifome.online/comida/${name}`);
-  return food["data"];
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const axios_1 = __importDefault(require("axios"));
+/**
+ * Digite parametro da comida exemplo "batata"
+ * @param nome
+ * @returns iformações sobre batata
+ */
+async function Food(nome) {
+    let food = await axios_1.default.get(`https://apifome.online/comida/${nome}`);
+    return food;
 }
-
-module.exports = { getFood };
+exports.Food = Food;

@@ -14,14 +14,14 @@ TS INSTALL
 
 HOW TO USE IN JS
 
-    const api = require('apifome')
+    const {Food} = require('apifome')
 
-    let food = await api.getFood('batata') // Enter a food in string
+    let food = await Food('batata') // Enter a food in string
 
 HOW TO USE IN TS
 
-    import * as api from 'apifome'
-    let food = await api.getFood('batata') // Enter a food in string
+    import {Food} from 'apifome'
+    let food = await Food('batata') // Enter a food in string
 
 ## License
 
